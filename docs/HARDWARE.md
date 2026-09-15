@@ -2,19 +2,14 @@
 
 ## Verwendetes Bedienmodul
 
-![Verwendetes OLED-Encoder-Modul – bereitgestellter Produkt-Screenshot](images/oled-encoder-modul.png)
 
 
 Alex verwendet die kombinierte blaue OLED-/EC11-Encoder-Platine mit zwei
-zusätzlichen Tasten (BAK und CONTR), die er als Produktbild bereitgestellt hat.
-Im Screenshot wird sie als Gettimore OLED-Display-Modul mit EC11-Encoder angeboten.
+zusätzlichen Tasten (BAK und CONTR). Das Modul wurde vom Projektinhaber bestätigt.
 
 OLED, Drehencoder und beide Tasten sitzen auf **derselben Platine**.
 Die Firmware verwendet für das OLED den **SH1106-Treiber, 128 × 64 Pixel,
-I²C-Adresse 0x3C**. Die Angebotsüberschrift nennt verschiedene Größen und
-„128 × 160“; daraus lässt sich die tatsächlich gelieferte Displayvariante nicht
-zuverlässig bestimmen. Maßgeblich für diese Dokumentation ist die verwendete
-Firmware-Konfiguration. Eine Hersteller-Teilenummer ist noch nicht belegt.
+I²C-Adresse 0x3C**. Die Darstellung und Auflösung entsprechen der Firmware-Konfiguration.
 
 ## Anschlussplan
 
@@ -67,30 +62,26 @@ physische Pinreihenfolge oder modulspezifische Lötbrücke fest.
 
 [STL-Quelle, Dateiliste und Abmessungen](../README.md#gehäuse--3d-druck).
 
-## Fotos des fertigen Geräts
+## Geräteansichten
 
-![KI-retuschierte Produktansicht](images/datenlogger-retuschiert.jpg)
+![Geräteansicht](images/datenlogger-produktansicht.jpg)
 
-*KI-retuschierte Produktansicht; für unveränderte Details siehe Originalfoto.*
+![Dashboard, Luftdruck und Kalibrierung](images/geraet-menues.jpg)
 
-![Originalfoto des fertigen Datenloggers](images/datenlogger-original.jpg)
-
-Das Originalfoto zeigt den realen Aufbau des Projektinhabers mit laufender
-Temperaturkurve. Es belegt keinen vollständigen Firmware- oder Langzeittest.
-Händlerbilder der bestätigten Einzelmodule und Bezugsquellen folgen unten.
+Vorschauen mit Beispielwerten. [WebGUI und PC-GUI ansehen](ANSICHTEN.md).
 
 ## Einzelmodule und günstige Bezugsquellen
 
-**Vom Projektinhaber am 15.09.2026 bestätigt:** Die unten gezeigten
+**Vom Projektinhaber am 15.09.2026 bestätigt:** Die verlinkten
 ESP32-C3-SuperMini- und BMP280-Module entsprechen den verwendeten Modulen.
 Der zuvor als „Nano“ bezeichnete Controller ist damit als **ESP32-C3 SuperMini**
-zugeordnet. Die Bilder stammen von den verlinkten Händlern.
+zugeordnet. Die Bezugsquellen führen zu den bestätigten Modulbauformen.
 
 ### Verwendeter ESP32-C3 SuperMini
 
-[<img src="https://cdn.webshopapp.com/shops/346407/files/451740693/otronic-esp32-c3-super-mini-wi-fi-ble-4mb-flash.jpg" width="360" alt="Händlerbild des vom Projektinhaber bestätigten ESP32-C3 SuperMini">](https://www.otronic.nl/de/esp32-c3-wi-fi-ble.html)
 
-Bildquelle und Angebot: [OTRONIC ESP32-C3 SuperMini](https://www.otronic.nl/de/esp32-c3-wi-fi-ble.html).
+
+Bezugsquelle: [OTRONIC ESP32-C3 SuperMini](https://www.otronic.nl/de/esp32-c3-wi-fi-ble.html).
 **4,99 €** Artikelpreis beim Abruf am 15.09.2026, zuzüglich Versand.
 Laut Händler 4 MB Flash, ca. 22,52 × 18 mm.
 Der Projektinhaber hat diese Bauform als sein verwendetes Modul bestätigt.
@@ -98,11 +89,11 @@ Vor einem Nachkauf GPIO-Verfügbarkeit, USB-Anschluss und Gehäusepassform prüf
 
 ### Verwendetes BMP280-Breakout
 
-[<img src="https://cdn.webshopapp.com/shops/346407/files/420563332/otronic-digital-barometer-pressure-sensor-module-b.jpg" width="360" alt="Händlerbild des vom Projektinhaber bestätigten BMP280-Breakouts">](https://www.otronic.nl/en/digital-barometer-pressure-sensor-module-bmp280.html)
 
-Bildquelle und Angebot: [OTRONIC BMP280](https://www.otronic.nl/en/digital-barometer-pressure-sensor-module-bmp280.html).
+
+Bezugsquelle: [OTRONIC BMP280](https://www.otronic.nl/en/digital-barometer-pressure-sensor-module-bmp280.html).
 **1,40 €** Artikelpreis beim Abruf am 15.09.2026, zuzüglich Versand.
-Der Projektinhaber hat das abgebildete Breakout als sein verwendetes Modul
+Der Projektinhaber hat das verlinkte Breakout als sein verwendetes Modul
 bestätigt; die frühere Farbbeschreibung „rot“ dient nicht mehr zur Abgrenzung.
 Der Händler nennt 3,3-V-Versorgung, I²C/SPI und die Standardadresse 0x76.
 
@@ -112,7 +103,6 @@ Endsumme im Warenkorb prüfen; der Händler berechnet Versand nach Größe/Gewic
 Die Angebote sind preiswerte gefundene Optionen, kein Nachweis des
 marktweit günstigsten Gesamtpreises.
 
-Die Händlerbilder sind unverändert von ihren Originalquellen eingebunden.
 Die Farbe eines Breakouts allein legt Pinbelegung und Spannungsverträglichkeit
 nicht fest. Für den vorhandenen Aufbau gilt weiterhin der dokumentierte
 Anschlussplan nach Signalnamen.

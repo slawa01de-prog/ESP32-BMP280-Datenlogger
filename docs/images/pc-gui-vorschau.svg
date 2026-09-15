@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="860" viewBox="0 0 1360 860"><rect width="1360" height="860" fill="#0b1220"/>
+<rect x="0" y="0" width="1360" height="36" rx="0" fill="#202b3c"/>
+<text x="14" y="24" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">BMP280 Logger V7.4.2 HA/MQTT UI</text>
+<text x="1220" y="24" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="18">—     □     ×</text>
+<text x="20" y="63" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">Datei     Verbindung     Logger     Ansicht     Sprache</text>
+<text x="24" y="105" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="28">BMP280 Logger V7.4.2 HA/MQTT UI</text>
+<rect x="1160" y="78" width="175" height="34" rx="8" fill="#a83040"/>
+<text x="1170" y="101" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">NICHT VERBUNDEN</text>
+<rect x="20" y="123" width="1320" height="125" rx="8" fill="#111c2e"/>
+<text x="34" y="155" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">COM</text>
+<rect x="85" y="134" width="240" height="34" rx="8" fill="#16243a"/>
+<text x="95" y="157" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">COM3 · Beispiel</text>
+<rect x="337" y="134" width="65" height="34" rx="8" fill="#16243a"/>
+<text x="347" y="157" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Ports</text>
+<text x="424" y="155" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">Baud</text>
+<rect x="472" y="134" width="100" height="34" rx="8" fill="#16243a"/>
+<text x="482" y="157" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">115200</text>
+<rect x="590" y="134" width="112" height="34" rx="8" fill="#207ca0"/>
+<text x="600" y="157" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Verbinden</text>
+<text x="35" y="200" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="16">STOP     Intervall: 60 s     Mode: SENSOR     Power: NORMAL     Nodes: 1     Speicher: 12 %</text>
+<text x="35" y="229" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="14">Vorschau mit Beispieldaten – keine Hardwareverbindung</text>
+<rect x="20" y="260" width="73" height="34" rx="8" fill="#16243a"/>
+<text x="30" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Nodes</text>
+<rect x="97" y="260" width="91" height="34" rx="8" fill="#16243a"/>
+<text x="107" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Pairing</text>
+<rect x="192" y="260" width="100" height="34" rx="8" fill="#236485"/>
+<text x="202" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Grafiken</text>
+<rect x="296" y="260" width="91" height="34" rx="8" fill="#16243a"/>
+<text x="306" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Analyse</text>
+<rect x="391" y="260" width="136" height="34" rx="8" fill="#16243a"/>
+<text x="401" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Kalibrierung</text>
+<rect x="531" y="260" width="163" height="34" rx="8" fill="#16243a"/>
+<text x="541" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Modul-Steuerung</text>
+<rect x="698" y="260" width="82" height="34" rx="8" fill="#16243a"/>
+<text x="708" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Export</text>
+<rect x="784" y="260" width="100" height="34" rx="8" fill="#16243a"/>
+<text x="794" y="283" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Terminal</text>
+<rect x="20" y="307" width="1320" height="130" rx="8" fill="#111c2e"/>
+<text x="35" y="337" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="20">Graph Auswahl</text>
+<text x="35" y="373" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">Module auswählen:</text>
+<rect x="190" y="350" width="125" height="34" rx="8" fill="#16243a"/>
+<text x="200" y="373" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Alle anzeigen</text>
+<rect x="325" y="350" width="200" height="34" rx="8" fill="#16243a"/>
+<text x="335" y="373" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Nur ausgewählte Node</text>
+<rect x="535" y="350" width="135" height="34" rx="8" fill="#16243a"/>
+<text x="545" y="373" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Auswahl leeren</text>
+<rect x="680" y="350" width="180" height="34" rx="8" fill="#16243a"/>
+<text x="690" y="373" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Graph Daten löschen</text>
+<text x="35" y="414" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">☑ Auto-Skalierung      Temp von  21.0   bis  24.0      Druck von  1010.0   bis  1015.0</text>
+<rect x="950" y="391" width="175" height="34" rx="8" fill="#16243a"/>
+<text x="960" y="414" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Achsen übernehmen</text>
+<rect x="1140" y="391" width="70" height="34" rx="8" fill="#16243a"/>
+<text x="1150" y="414" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Auto</text>
+<rect x="20" y="452" width="250" height="342" rx="8" fill="#111c2e"/>
+<text x="35" y="484" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="19">Module im Graph</text>
+<rect x="34" y="501" width="222" height="38" rx="8" fill="#235e7d"/>
+<text x="42" y="526" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">DEMO01 · Labor</text>
+<text x="35" y="572" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="14">Aktiv im Graph:</text>
+<text x="35" y="598" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="14">Labor · Beispielwerte</text>
+<rect x="284" y="452" width="518" height="342" rx="8" fill="#111c2e"/>
+<text x="302" y="482" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="19">Temperatur Vergleich</text>
+<path d="M339 514.0 H784" stroke="#263449"/>
+<text x="292" y="519.0" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">24.0</text>
+<path d="M339 573.25 H784" stroke="#263449"/>
+<text x="292" y="578.25" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">23.2</text>
+<path d="M339 632.5 H784" stroke="#263449"/>
+<text x="292" y="637.5" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">22.5</text>
+<path d="M339 691.75 H784" stroke="#263449"/>
+<text x="292" y="696.75" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">21.8</text>
+<path d="M339 751.0 H784" stroke="#263449"/>
+<text x="292" y="756.0" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">21.0</text>
+<polyline points="339.0,703.6 344.0,699.5 349.0,695.5 353.9,691.7 358.9,688.0 363.9,684.7 368.9,681.7 373.8,679.0 378.8,676.8 383.8,675.1 388.8,673.8 393.8,672.9 398.7,672.5 403.7,672.6 408.7,673.0 413.7,673.7 418.6,674.7 423.6,675.9 428.6,677.3 433.6,678.7 438.6,680.1 443.5,681.5 448.5,682.6 453.5,683.6 458.5,684.2 463.4,684.5 468.4,684.4 473.4,683.9 478.4,682.9 483.3,681.5 488.3,679.6 493.3,677.2 498.3,674.5 503.3,671.4 508.2,667.9 513.2,664.2 518.2,660.3 523.2,656.3 528.1,652.2 533.1,648.1 538.1,644.1 543.1,640.3 548.1,636.8 553.0,633.5 558.0,630.6 563.0,628.1 568.0,626.1 572.9,624.4 577.9,623.3 582.9,622.6 587.9,622.3 592.9,622.4 597.8,623.0 602.8,623.8 607.8,624.9 612.8,626.1 617.7,627.5 622.7,629.0 627.7,630.3 632.7,631.6 637.7,632.7 642.6,633.6 647.6,634.1 652.6,634.3 657.6,634.1 662.5,633.4 667.5,632.3 672.5,630.7 677.5,628.7 682.4,626.3 687.4,623.4 692.4,620.2 697.4,616.6 702.4,612.9 707.3,608.9 712.3,604.8 717.3,600.7 722.3,596.7 727.2,592.8 732.2,589.0 737.2,585.6 742.2,582.4 747.2,579.6 752.1,577.3 757.1,575.3 762.1,573.8 767.1,572.8 772.0,572.3 777.0,572.1 782.0,572.4" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+<text x="344" y="779" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">0                         Punkt                         90</text>
+<text x="296" y="504" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">°C</text>
+<rect x="816" y="452" width="524" height="342" rx="8" fill="#111c2e"/>
+<text x="834" y="482" fill="#eaf2ff" font-family="Segoe UI,Arial,sans-serif" font-size="19">Luftdruck Vergleich</text>
+<path d="M871 514.0 H1322" stroke="#263449"/>
+<text x="824" y="519.0" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1015.0</text>
+<path d="M871 573.25 H1322" stroke="#263449"/>
+<text x="824" y="578.25" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1013.8</text>
+<path d="M871 632.5 H1322" stroke="#263449"/>
+<text x="824" y="637.5" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1012.5</text>
+<path d="M871 691.75 H1322" stroke="#263449"/>
+<text x="824" y="696.75" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1011.2</text>
+<path d="M871 751.0 H1322" stroke="#263449"/>
+<text x="824" y="756.0" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1010.0</text>
+<polyline points="871.0,703.6 876.0,699.5 881.1,695.5 886.1,691.7 891.2,688.0 896.2,684.7 901.3,681.7 906.3,679.0 911.4,676.8 916.4,675.1 921.4,673.8 926.5,672.9 931.5,672.5 936.6,672.6 941.6,673.0 946.7,673.7 951.7,674.7 956.8,675.9 961.8,677.3 966.9,678.7 971.9,680.1 976.9,681.5 982.0,682.6 987.0,683.6 992.1,684.2 997.1,684.5 1002.2,684.4 1007.2,683.9 1012.3,682.9 1017.3,681.5 1022.3,679.6 1027.4,677.2 1032.4,674.5 1037.5,671.4 1042.5,667.9 1047.6,664.2 1052.6,660.3 1057.7,656.3 1062.7,652.2 1067.8,648.1 1072.8,644.1 1077.8,640.3 1082.9,636.8 1087.9,633.5 1093.0,630.6 1098.0,628.1 1103.1,626.1 1108.1,624.4 1113.2,623.3 1118.2,622.6 1123.2,622.3 1128.3,622.4 1133.3,623.0 1138.4,623.8 1143.4,624.9 1148.5,626.1 1153.5,627.5 1158.6,629.0 1163.6,630.3 1168.7,631.6 1173.7,632.7 1178.7,633.6 1183.8,634.1 1188.8,634.3 1193.9,634.1 1198.9,633.4 1204.0,632.3 1209.0,630.7 1214.1,628.7 1219.1,626.3 1224.1,623.4 1229.2,620.2 1234.2,616.6 1239.3,612.9 1244.3,608.9 1249.4,604.8 1254.4,600.7 1259.5,596.7 1264.5,592.8 1269.6,589.0 1274.6,585.6 1279.6,582.4 1284.7,579.6 1289.7,577.3 1294.8,575.3 1299.8,573.8 1304.9,572.8 1309.9,572.3 1315.0,572.1 1320.0,572.4" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+<text x="876" y="779" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">0                         Punkt                         90</text>
+<text x="828" y="504" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="12">hPa</text>
+<text x="22" y="833" fill="#9fb0c6" font-family="Segoe UI,Arial,sans-serif" font-size="16">PC-GUI für Windows · schematische Vorschau nach dem Python-Code; Betriebssystemdarstellung kann abweichen.</text>
+</svg>

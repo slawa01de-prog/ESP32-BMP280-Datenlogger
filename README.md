@@ -9,21 +9,14 @@ Siehe [Teststatus](docs/TESTSTATUS.md).
 
 ## Geräteansicht
 
-![Fertiger ESP32-Datenlogger im Gehäuse – KI-retuschierte Produktansicht](docs/images/datenlogger-retuschiert.jpg)
+![ESP32-Datenlogger im Gehäuse](docs/images/datenlogger-produktansicht.jpg)
 
-*KI-retuschierte Aufnahme auf Grundlage des echten Geräts: Hintergrund und
-Beleuchtung wurden überarbeitet. Für Details des tatsächlichen Aufbaus siehe
-das Originalfoto.*
+### Displayansichten
 
-<details>
-<summary>Originalfoto des aufgebauten Geräts ansehen</summary>
+![Dashboard, Luftdruck und Kalibrierung](docs/images/geraet-menues.jpg)
 
-![Originalfoto des Datenloggers mit Temperaturkurve](docs/images/datenlogger-original.jpg)
-
-Foto des Projektinhabers. Zu sehen sind das graue Gehäuse, das OLED mit
-Temperaturverlauf, der Drehencoder und die beiden Tasten.
-
-</details>
+Produkt- und Displayvorschauen mit Beispielwerten.
+[Weitere Ansichten: WebGUI und PC-GUI](docs/ANSICHTEN.md).
 
 ## Funktionen
 
@@ -62,16 +55,13 @@ BMP280 misst Temperatur und Druck, keine Luftfeuchte.
 
 ### Verwendetes OLED-/Encoder-Modul
 
-<img src="docs/images/oled-encoder-modul.png" alt="Vom Projektinhaber bereitgestellter Produkt-Screenshot der blauen OLED-Encoder-Platine" width="490">
-
 Die blaue Platine kombiniert **OLED, EC11-Drehencoder und zwei Tasten**.
-Das Bild ist der vom Projektinhaber bereitgestellte Produkt-Screenshot; die
-Angebotsüberschrift enthält verschiedene Displayvarianten. Die Firmware nutzt
+Die Firmware nutzt
 **SH1106, 128 × 64 Pixel, I²C 0x3C**.
 
-Der Projektinhaber hat die abgebildeten **ESP32-C3-SuperMini- und
+Der Projektinhaber hat die **ESP32-C3-SuperMini- und
 BMP280-Module** als seine verwendeten Module bestätigt.
-[Modulbilder und günstige Bezugsquellen](docs/HARDWARE.md#einzelmodule-und-günstige-bezugsquellen).
+[Verwendete Module und günstige Bezugsquellen](docs/HARDWARE.md#einzelmodule-und-günstige-bezugsquellen).
 
 ## Gehäuse / 3D-Druck
 
@@ -135,6 +125,11 @@ Es liegt keine fertig kompilierte Firmware-BIN bei.
 
 ## PC-GUI
 
+![PC-GUI für Windows – Vorschau](docs/images/pc-gui-vorschau.svg)
+
+Schematische Vorschau des Grafikbereichs mit Beispieldaten, nach dem Python-Code.
+
+
 Python 3.10 oder neuer mit Tkinter installieren. Unter Windows zuerst
 `install_requirements.bat`, anschließend `start_gui.bat` starten.
 Alternativ:
@@ -163,6 +158,11 @@ beginnt der RAM-Verlauf neu.** CSV-Dateien bleiben erhalten und werden nicht in
 diese OLED-Grafik nachgeladen. [Details zum Verlauf](docs/VERLAUF.md).
 
 ## Web, Funk und Daten
+
+![WebGUI – Vorschau](docs/images/webgui-vorschau.svg)
+
+Schematische Vorschau nach der Firmware-Webseite, mit Beispieldaten.
+
 
 [Bedienung, Archiv, Zeitbasis, MQTT und Funk](docs/BEDIENUNG.md).
 WebGUI/OTA per IP-Adresse öffnen; mDNS/.local ist nicht enthalten.
