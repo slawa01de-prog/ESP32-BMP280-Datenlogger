@@ -24,6 +24,13 @@ erweitert; das Bild zeigt deren ältere Darstellung, kein Hardwarefoto.
 
 ## Hardware
 
+Das Bedienmodul kombiniert OLED, EC11-Drehencoder und zwei Tasten auf einer Platine.
+
+![Anschlussplan](docs/images/anschlussplan.svg)
+
+**[Vollständige Verdrahtung und Aufbauhinweise](docs/HARDWARE.md)**
+
+
 | Bauteil | Anschluss |
 |---|---|
 | ESP32-C3 | 4 MB Flash, nativer USB |
