@@ -69,8 +69,9 @@ Das Bild ist der vom Projektinhaber bereitgestellte Produkt-Screenshot; die
 Angebotsüberschrift enthält verschiedene Displayvarianten. Die Firmware nutzt
 **SH1106, 128 × 64 Pixel, I²C 0x3C**.
 
-Separate Originalfotos des ESP32-C3-Boards und des BMP280-Breakouts stehen noch
-aus. Ihre elektrische Zuordnung ist im Anschlussplan dokumentiert.
+Der Projektinhaber verwendet einen **ESP32-C3 „Nano“** und ein **kleines rotes
+BMP280-Modul**. [Einzelmodul-Vergleichsbilder und günstige Bezugsquellen](docs/HARDWARE.md#einzelmodule-und-günstige-bezugsquellen)
+sind dokumentiert; die exakten Platinenrevisionen sind noch nicht identifiziert.
 
 ## Gehäuse / 3D-Druck
 
