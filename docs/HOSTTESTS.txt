@@ -1,0 +1,23 @@
+test_archive_deduplicates_and_keeps_session (__main__.PipelineTests.test_archive_deduplicates_and_keeps_session) ... ok
+test_bad_line_does_not_stop_poll (__main__.PipelineTests.test_bad_line_does_not_stop_poll) ... ok
+test_redraw_has_no_recursive_timer (__main__.PipelineTests.test_redraw_has_no_recursive_timer) ... ok
+test_corrupt_value_detected (__main__.ProtocolTests.test_corrupt_value_detected) ... ok
+test_nan_invalid_not_zero (__main__.ProtocolTests.test_nan_invalid_not_zero) ... ok
+test_new_boot_identity (__main__.ProtocolTests.test_new_boot_identity) ... ok
+test_truncation_detected (__main__.ProtocolTests.test_truncation_detected) ... ok
+test_v73_live_accepted (__main__.ProtocolTests.test_v73_live_accepted) ... ok
+test_valid_and_duplicate_identity (__main__.ProtocolTests.test_valid_and_duplicate_identity) ... ok
+test_fragmented_lines (__main__.WorkerTests.test_fragmented_lines) ... ok
+test_old_reader_cannot_close_new_port (__main__.WorkerTests.test_old_reader_cannot_close_new_port) ... ok
+test_read_failure_clears_connection (__main__.WorkerTests.test_read_failure_clears_connection) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+OK
+PASS: journal parse, ACK cursor, retry, stale ACK, wrong sender, EOF, checksum
+PASS: stalled host, bounded writes, short writes, wrap, whole-line overflow, reconnect
+PASS: firmware TX routing, zero HWCDC timeout, archive backpressure, dashboard before boot status
+PASS: real-minute timestamps, 24h wrap, gaps, invalid samples, 50-day uptime, reset
+PASS: graph drawing bounds and data presence across 96 scenarios (2 channels, 4 windows, DE/EN)
+History RAM bytes: 34584 (host alignment)
