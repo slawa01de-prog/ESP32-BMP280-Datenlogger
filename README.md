@@ -53,10 +53,27 @@ bestätigt. Das Archiv wird hier als externe Originalquelle verlinkt.
    OLED, Encoder und den Tastern abgleichen. Andere Modulbauformen können
    Anpassungen erfordern.
 
-Der Archivinhalt wurde für diese Dokumentation noch nicht geprüft. Deshalb sind
-hier keine bestimmten Dateinamen, Gehäusemaße, Schraubengrößen oder Druckparameter
-als verifiziert angegeben. Die ursprüngliche Projektseite, der Designer und die
-Lizenz der Gehäusedateien sind bislang nicht dokumentiert.
+### Inhalt des STL-Archivs
+
+Download und ZIP-Integrität wurden am 15.09.2026 geprüft. Das Archiv enthält fünf
+binäre STL-Dateien:
+
+| Datei | Ausdehnung X × Y × Z in STL-Einheiten |
+|---|---|
+| `Estardyn - Back.stl` | 71 × 41 × 19 |
+| `Estardyn - Front.stl` | 71 × 41 × 7 |
+| `Estardyn - Buttons.stl` | 24 × 8 × 6,4 |
+| `Estardyn - Knob.stl` | ca. 9,544 × 9,544 × 14 |
+| `Estardyn - ESP32C3.stl` | 24,2 × 35 × 4,2 |
+
+Die Werte wurden aus den Dreieckskoordinaten berechnet. STL speichert keine
+Maßeinheit: Bei Import als Millimeter entsprechen die Zahlen Millimetern.
+Es handelt sich um die äußeren Ausdehnungen der einzelnen Dateien, nicht um
+Innenmaße oder geprüfte Maße des zusammengebauten Gehäuses.
+
+Passform, Schraubengrößen und Druckparameter wurden nicht geprüft. Die
+ursprüngliche Projektseite, der Designer und die Lizenz der Gehäusedateien sind
+bislang nicht dokumentiert; das ZIP enthält nur die genannten STL-Dateien.
 
 ## Firmware installieren
 
