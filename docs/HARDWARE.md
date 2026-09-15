@@ -77,4 +77,44 @@ physische Pinreihenfolge oder modulspezifische Lötbrücke fest.
 
 Das Originalfoto zeigt den realen Aufbau des Projektinhabers mit laufender
 Temperaturkurve. Es belegt keinen vollständigen Firmware- oder Langzeittest.
-Separate Originalfotos des ESP32-C3 und BMP280 stehen noch aus.
+Originalfotos der einzelnen ESP32-C3- und BMP280-Platinen stehen noch aus; Vergleichsbilder und Bezugsquellen folgen unten.
+
+## Einzelmodule und günstige Bezugsquellen
+
+**Angaben des Projektinhabers:** ESP32-C3 „Nano“ und ein kleines rotes BMP280-Board.
+Die genaue Hersteller-/Platinenrevision ist bislang nicht dokumentiert.
+Die folgenden Händlerbilder zeigen **Vergleichs- und Nachkaufoptionen**;
+sie sind keine Originalfotos der eingebauten Platinen.
+
+### ESP32-C3: SuperMini als Vergleich
+
+[<img src="https://cdn.webshopapp.com/shops/346407/files/451740693/otronic-esp32-c3-super-mini-wi-fi-ble-4mb-flash.jpg" width="360" alt="Händlerbild ESP32-C3 SuperMini – exakte Übereinstimmung mit dem verwendeten Nano noch offen">](https://www.otronic.nl/de/esp32-c3-wi-fi-ble.html)
+
+Bildquelle und Angebot: [OTRONIC ESP32-C3 SuperMini](https://www.otronic.nl/de/esp32-c3-wi-fi-ble.html).
+**4,99 €** Artikelpreis beim Abruf am 15.09.2026, zuzüglich Versand.
+Laut Händler 4 MB Flash, ca. 22,52 × 18 mm.
+Ob diese Bauform dem verwendeten „Nano“ entspricht, muss anhand der
+Platinenbeschriftung oder eines Originalfotos abgeglichen werden.
+Vor einem Nachkauf GPIO-Verfügbarkeit, USB-Anschluss und Gehäusepassform prüfen.
+
+### BMP280: günstiges Breakout als Alternative
+
+[<img src="https://cdn.webshopapp.com/shops/346407/files/420563332/otronic-digital-barometer-pressure-sensor-module-b.jpg" width="360" alt="OTRONIC BMP280 – violettes Vergleichsmodul, nicht das rote Originalboard">](https://www.otronic.nl/en/digital-barometer-pressure-sensor-module-bmp280.html)
+
+Bildquelle und Angebot: [OTRONIC BMP280](https://www.otronic.nl/en/digital-barometer-pressure-sensor-module-bmp280.html).
+**1,40 €** Artikelpreis beim Abruf am 15.09.2026, zuzüglich Versand.
+Das Händlerbild zeigt eine **violette** Platine; Alex verwendet eine **rote**.
+Dies ist daher eine Nachkaufoption, keine bestätigte Identifikation des Originals.
+Der Händler nennt 3,3-V-Versorgung, I²C/SPI und die Standardadresse 0x76.
+
+Beide Artikel zusammen: **6,39 € vor Versand**. Versand nach Deutschland und
+Endsumme im Warenkorb prüfen; der Händler berechnet Versand nach Größe/Gewicht
+([Versandinformationen](https://www.otronic.nl/en/service/shipping-returns/)).
+Die Angebote sind preiswerte gefundene Optionen, kein Nachweis des
+marktweit günstigsten Gesamtpreises.
+
+Die Händlerbilder sind unverändert von ihren Originalquellen eingebunden.
+Die Farbe eines Breakouts allein legt Pinbelegung und Spannungsverträglichkeit
+nicht fest. Für den vorhandenen Aufbau gilt weiterhin der dokumentierte
+Anschlussplan nach Signalnamen.
+
