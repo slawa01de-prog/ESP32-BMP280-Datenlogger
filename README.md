@@ -51,7 +51,7 @@ Das Bedienmodul kombiniert OLED, EC11-Drehencoder und zwei Tasten auf einer Plat
 
 | Bauteil | Anschluss |
 |---|---|
-| ESP32-C3 | 4 MB Flash, nativer USB |
+| ESP32-C3 SuperMini | 4 MB Flash, nativer USB |
 | SH1106 128 × 64 | I²C 0x3C |
 | BMP280 | I²C 0x76 |
 | SDA / SCL | GPIO8 / GPIO9 |
@@ -69,9 +69,9 @@ Das Bild ist der vom Projektinhaber bereitgestellte Produkt-Screenshot; die
 Angebotsüberschrift enthält verschiedene Displayvarianten. Die Firmware nutzt
 **SH1106, 128 × 64 Pixel, I²C 0x3C**.
 
-Der Projektinhaber verwendet einen **ESP32-C3 „Nano“** und ein **kleines rotes
-BMP280-Modul**. [Einzelmodul-Vergleichsbilder und günstige Bezugsquellen](docs/HARDWARE.md#einzelmodule-und-günstige-bezugsquellen)
-sind dokumentiert; die exakten Platinenrevisionen sind noch nicht identifiziert.
+Der Projektinhaber hat die abgebildeten **ESP32-C3-SuperMini- und
+BMP280-Module** als seine verwendeten Module bestätigt.
+[Modulbilder und günstige Bezugsquellen](docs/HARDWARE.md#einzelmodule-und-günstige-bezugsquellen).
 
 ## Gehäuse / 3D-Druck
 
