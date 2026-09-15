@@ -2,6 +2,9 @@
 
 ## Verwendetes Bedienmodul
 
+![Verwendetes OLED-Encoder-Modul – bereitgestellter Produkt-Screenshot](images/oled-encoder-modul.png)
+
+
 Alex verwendet die kombinierte blaue OLED-/EC11-Encoder-Platine mit zwei
 zusätzlichen Tasten (BAK und CONTR), die er als Produktbild bereitgestellt hat.
 Im Screenshot wird sie als Gettimore OLED-Display-Modul mit EC11-Encoder angeboten.
@@ -63,3 +66,15 @@ physische Pinreihenfolge oder modulspezifische Lötbrücke fest.
 ## Gehäuse
 
 [STL-Quelle, Dateiliste und Abmessungen](../README.md#gehäuse--3d-druck).
+
+## Fotos des fertigen Geräts
+
+![KI-retuschierte Produktansicht](images/datenlogger-retuschiert.jpg)
+
+*KI-retuschierte Produktansicht; für unveränderte Details siehe Originalfoto.*
+
+![Originalfoto des fertigen Datenloggers](images/datenlogger-original.jpg)
+
+Das Originalfoto zeigt den realen Aufbau des Projektinhabers mit laufender
+Temperaturkurve. Es belegt keinen vollständigen Firmware- oder Langzeittest.
+Separate Originalfotos des ESP32-C3 und BMP280 stehen noch aus.

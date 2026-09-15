@@ -7,6 +7,24 @@ CSV-Speicherung, ESP-NOW, Weboberfläche, OTA und Python-PC-GUI.
 Version, Hardwaretest und 24-Stunden-Abnahme sind noch offen.
 Siehe [Teststatus](docs/TESTSTATUS.md).
 
+## Geräteansicht
+
+![Fertiger ESP32-Datenlogger im Gehäuse – KI-retuschierte Produktansicht](docs/images/datenlogger-retuschiert.jpg)
+
+*KI-retuschierte Aufnahme auf Grundlage des echten Geräts: Hintergrund und
+Beleuchtung wurden überarbeitet. Für Details des tatsächlichen Aufbaus siehe
+das Originalfoto.*
+
+<details>
+<summary>Originalfoto des aufgebauten Geräts ansehen</summary>
+
+![Originalfoto des Datenloggers mit Temperaturkurve](docs/images/datenlogger-original.jpg)
+
+Foto des Projektinhabers. Zu sehen sind das graue Gehäuse, das OLED mit
+Temperaturverlauf, der Drehencoder und die beiden Tasten.
+
+</details>
+
 ## Funktionen
 
 - Eigenständige Messung und Aufzeichnung in SENSOR/HYBRID.
@@ -41,6 +59,18 @@ Das Bedienmodul kombiniert OLED, EC11-Drehencoder und zwei Tasten auf einer Plat
 | BAK / CONTR | GPIO4 / GPIO5 |
 
 BMP280 misst Temperatur und Druck, keine Luftfeuchte.
+
+### Verwendetes OLED-/Encoder-Modul
+
+<img src="docs/images/oled-encoder-modul.png" alt="Vom Projektinhaber bereitgestellter Produkt-Screenshot der blauen OLED-Encoder-Platine" width="490">
+
+Die blaue Platine kombiniert **OLED, EC11-Drehencoder und zwei Tasten**.
+Das Bild ist der vom Projektinhaber bereitgestellte Produkt-Screenshot; die
+Angebotsüberschrift enthält verschiedene Displayvarianten. Die Firmware nutzt
+**SH1106, 128 × 64 Pixel, I²C 0x3C**.
+
+Separate Originalfotos des ESP32-C3-Boards und des BMP280-Breakouts stehen noch
+aus. Ihre elektrische Zuordnung ist im Anschlussplan dokumentiert.
 
 ## Gehäuse / 3D-Druck
 
