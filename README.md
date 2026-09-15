@@ -35,6 +35,29 @@ erweitert; das Bild zeigt deren ältere Darstellung, kein Hardwarefoto.
 
 BMP280 misst Temperatur und Druck, keine Luftfeuchte.
 
+## Gehäuse / 3D-Druck
+
+Das im aufgebauten Datenlogger verwendete Gehäuse stammt laut Projektinhaber
+aus diesem STL-Archiv auf Hackster.io:
+
+**[Gehäuse-STL-Dateien herunterladen (ZIP)](https://hacksterio.s3.amazonaws.com/uploads/attachments/1914724/stl_files_MuvhP6NFu3.zip)**
+
+Der Projektinhaber hat diesen Link am 15.09.2026 als Quelle seines Gehäuses
+bestätigt. Das Archiv wird hier als externe Originalquelle verlinkt.
+
+### Für den Nachbau
+
+1. ZIP-Datei über den Link herunterladen und lokal entpacken.
+2. Die enthaltenen STL-Dateien im Slicer öffnen.
+3. Vor dem Druck die Abmessungen und Ausschnitte mit dem eigenen ESP32-C3-Board,
+   OLED, Encoder und den Tastern abgleichen. Andere Modulbauformen können
+   Anpassungen erfordern.
+
+Der Archivinhalt wurde für diese Dokumentation noch nicht geprüft. Deshalb sind
+hier keine bestimmten Dateinamen, Gehäusemaße, Schraubengrößen oder Druckparameter
+als verifiziert angegeben. Die ursprüngliche Projektseite, der Designer und die
+Lizenz der Gehäusedateien sind bislang nicht dokumentiert.
+
 ## Firmware installieren
 
 1. Repository als ZIP herunterladen und entpacken.
