@@ -1,5 +1,8 @@
 # Änderungen
 
+**🇩🇪 Deutsch** | [🇬🇧 English](CHANGELOG.en.md)
+
+
 ## V74.3 – Vorabversion
 - OLED: Temperatur/Druck direkt umschalten, Zeitfenster 1/6/12/24 Stunden.
 - Minutenspeicher im RAM, feste Zeitachse und Erkennung fehlender Daten.

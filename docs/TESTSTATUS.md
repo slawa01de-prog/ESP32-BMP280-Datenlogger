@@ -1,5 +1,8 @@
 # Teststatus V74.3 – Vorabversion
 
+**🇩🇪 Deutsch** | [🇬🇧 English](en/TESTSTATUS.md)
+
+
 Die Tests in diesem Repository prüfen Hostcode und extrahierte Firmwarefunktionen.
 Sie ersetzen keinen vollständigen ESP32-Build oder Hardwaretest.
 

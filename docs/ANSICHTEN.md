@@ -1,5 +1,8 @@
 # Geräte-, Web- und PC-Ansichten
 
+**🇩🇪 Deutsch** | [🇬🇧 English](en/ANSICHTEN.md)
+
+
 ## Datenlogger im Gehäuse
 
 ![Produktansicht](images/datenlogger-produktansicht.jpg)

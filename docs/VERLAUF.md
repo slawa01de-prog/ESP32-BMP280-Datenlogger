@@ -1,5 +1,8 @@
 BMP280 Logger V74.3 – OLED-Verlauf 1/6/12/24 Stunden
 
+**🇩🇪 Deutsch** | [🇬🇧 English](en/VERLAUF.md)
+
+
 Installation:
 ZIP entpacken. Esp32_LCD_Datalogger/Esp32_LCD_Datalogger.ino öffnen.
 Vollständiger Sketch in einer Datei, keine LoggerConsole.h erforderlich.

@@ -1,5 +1,8 @@
 # Hardware und Anschlussplan
 
+**🇩🇪 Deutsch** | [🇬🇧 English](en/HARDWARE.md)
+
+
 ## Verwendetes Bedienmodul
 
 

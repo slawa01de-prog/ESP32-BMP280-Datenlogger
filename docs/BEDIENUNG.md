@@ -1,5 +1,8 @@
 # Bedienung und Hardware
 
+**🇩🇪 Deutsch** | [🇬🇧 English](en/BEDIENUNG.md)
+
+
 ## Hardware wie in V73
 
 | Teil | Anschluss |

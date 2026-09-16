@@ -1,5 +1,8 @@
 # ESP32-BMP280-Datenlogger
 
+**🇩🇪 Deutsch** | [🇬🇧 English](README.en.md)
+
+
 Temperatur- und Luftdrucklogger mit ESP32-C3, SH1106-OLED, Encoder,
 CSV-Speicherung, ESP-NOW, Weboberfläche, OTA und Python-PC-GUI.
 
